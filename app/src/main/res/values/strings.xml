@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pixel</string>
+    <string name="app_trademark"><u>An AppStreet Product</u></string>
+    <string name="btn_retry">RETRY</string>
+    <string name="btn_go_online">GO ONLINE</string>
+    <string name="btn_go_offline">GO OFFLINE</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="hit"
+            type="com.fitbell.dheerajkanwar.picabay.model.Hit"/>
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen_4dp"
+        app:cardElevation="@dimen/dimen_4dp"
+        android:clickable="true"
+        android:layout_margin="@dimen/dimen_4dp"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <com.fitbell.dheerajkanwar.picabay.view.SquareImageView
+            android:id="@+id/img_article"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            app:imgSrc="@{hit.previewURL}" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

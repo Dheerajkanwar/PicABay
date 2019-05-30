@@ -1,0 +1,20 @@
+<resources>
+    <!-- Layout defaults -->
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="txt_size_12sp">12sp</dimen>
+    <dimen name="txt_size_14sp">14sp</dimen>
+    <dimen name="txt_size_16sp">16sp</dimen>
+    <dimen name="txt_size_48sp">48sp</dimen>
+    <dimen name="txt_size_64sp">64sp</dimen>
+
+    <!-- Progress bar dimens -->
+    <dimen name="progress_measure">50dp</dimen>
+
+    <!-- Splash screen dimens -->
+    <dimen name="splash_icon_width">120dp</dimen>
+    <dimen name="splash_icon_height">120dp</dimen>
+
+    <dimen name="app_bar_height">240dp</dimen>
+</resources>
